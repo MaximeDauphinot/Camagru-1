@@ -65,7 +65,7 @@
 						</div>
 						<section class="writing_area">
 							<form class="enter_comment">
-								<textarea class="comments" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
+								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
 							</form>
 					</section>
 					</div>
