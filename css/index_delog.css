@@ -39,8 +39,6 @@ body{
     border-right-width: thin;
     border-left-style: solid;
     border-left-width: thin;
-    margin-right:14px;
-    margin-left: 14px;
     border-color: rgba(230, 230, 230, 1);
 }
 
@@ -86,6 +84,7 @@ body{
     align-items: center;
     background-color: white;
     height: 75px;
+    margin-right: 14px;
 }
 
 .logo_appareil{
