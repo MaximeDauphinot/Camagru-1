@@ -11,7 +11,6 @@
                 <img id="iphone_pic" src="../ressources/mockup/mockup1.png">
             </div>
             <div id="formulary">
-                <div id="formulary_sd"></div>
                 <div id="formulary_td">
                     <div id="formulary_title">
                         <a href="index_delog.php">    

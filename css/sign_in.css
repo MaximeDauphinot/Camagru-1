@@ -1,9 +1,20 @@
 html { 
     overflow-y: hidden; 
+    height: 100%;
 } 
 
 body{
+    height: 100%
     background-color: rgba(250, 250,250, 1);
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    position:relative;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    margin:0;
+    width:100vw;
+    overflow:hidden;
 }
 
 p {
@@ -20,18 +31,41 @@ a:visited {
     color: #003569;
 }
 
+strong{
+    margin-right: 30px;
+    float: right;
+    color: grey;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: relative;
+    background-color: rgba(250, 250, 250, 1);
+    justify-content: center;
+    align-items: center;
+}
+
 #container_sign_in {
-    background-color: rgba(250, 250,250, 1);
-    width: 82vw;
-    height: 60vw;
-    margin-top: 10vw;
-    margin-left: 8vw;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    padding-bottom: 44px;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
 }
 
 #mockup_iphone {
     height: 47vw;
     width: 45.5vw;
     float: left;
+    max-width: 454px;
+    max-height: 618px;
 }
 
 #iphone_pic{
@@ -61,10 +95,14 @@ a:visited {
 }
 
 #formulary {
+    display: flex;
     background-color: rgba(255, 255,255, 1);
     margin-left: 37.5vw;
     width: 28vw;
     height: 42vw;
+    max-width: 350px;
+    flex-direction: column;
+    position: relative;
 }
 
 #formulary_title {
@@ -156,4 +194,24 @@ a:visited {
 
 .button:hover {
     opacity: 2;
+}
+
+#footer{
+    position: fixed;
+    z-index: 1;
+    height: 90px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_bar{
+  /*  background-color: rgba(255, 255, 255, 0);*/
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
 }
