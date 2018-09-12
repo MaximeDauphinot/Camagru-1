@@ -10,7 +10,7 @@
 				<a href="take_picture.php">
 					<div class="logo_appareil"><img src="../ressources/logo_appareil.png" width="30px" height="30px"></div>
 				</a>
-				<div class="logo_camagru"><img src="../ressources/logo_name.png" width="225px" height="50px"></div>
+				<div class="logo_camagru"><img src="../ressources/logo_name.png" width="105px" height="35px" style="margin-left: 8px"></div>
 			</div>
 			<div class="header_content_right">
 				<a href="sign_up.php">
@@ -37,7 +37,8 @@
 						</div>
 					</div>
 					<div class="post_content">
-						<img src="http://placekitten.com/g/400/600" class="display_picture">
+						<img src="
+						/ressources/BMX.jpg" class="display_picture">
 					</div>
 					<div class="post_buttons_comment">
 						<section class="buttons">

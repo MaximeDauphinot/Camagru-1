@@ -13,25 +13,33 @@
             <div id="formulary">
                 <div id="formulary_td">
                     <div id="formulary_title">
-                        <a href="index_delog.php">    
+                        <a href="index_delog.php" style="max-height: 51px;">    
                             <img class="logo" src="../ressources/logo_name.png">
                         </a>
                     </div>
                     <div id="formulary_form">
-                        <form>
+                        <form class="form_design">
                             <label for="formulary_login"></label>
                             <input type="text" id="formulary_login" placeholder="Login">
                             <label for="formulary_password"></label>
                             <input type="password" id="formulary_password" placeholder="Password">
                         </form>
-                            <button class="button">Log in</button>
+                        <div class="position_button">
+                            <div class="position_button">
+                                <button class="button">Log in</button>
+                            </div>
+                        </div>
                         <div id="formulary_decoration">OR</div>
-                        <a href="forgot_password.php" id="formulary_forget_password">Forgot password?</a>
+                        <div class="formulary_forget_password">
+                            <a href="forgot_password.php" id="formulary_forget_password_sd">Forgot password?</a>
+                        </div>
                     </div>
                     <div id="formulary_fd"></div>
                     <div id="formulary_sign_up">
                         <p id="formulary_sign_up_link">
-                            <a href="sign_up.php">Don't have an account? Sign up here</a>
+                            Don't have an account?
+                            <a href="sign_up.php"> Sign up</a>
+                             here
                         </p>
                     </div>
                 </div>

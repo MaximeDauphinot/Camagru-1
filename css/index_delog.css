@@ -89,23 +89,27 @@ body{
 
 .logo_appareil{
     position: relative;
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    min-width: 30px;
-    min-height: 30px;
+    width: 35px;
+    height: 35px;
+    max-width: 35px;
+    min-width: 35px;
+    min-height: 35px;
     margin-top: 20px;
     float: left;
 }
 
 .logo_camagru{
+    border-left-style: solid;
+    border-left-width: thin;
+    border-color: rgba(0, 0, 0, 1);
     position: relative;
-    width: 225px;
-    height: 50px;
+    width: 105px;
+    height: 35px;
     max-width: 225px;
-    min-width: 225px;
-    min-height: 50px;
-    margin-top: 10px;
+    min-width: 35px;
+    min-height: 35px;
+    margin-top: 18px;
+    margin-left: 10px;
     float: left;
 }
 
@@ -116,7 +120,7 @@ body{
     max-width: 30px;
     min-width: 30px;
     min-height: 30px;
-    margin-right: 3px;
+    margin-right: 10px;
     margin-left: 20px;
 }
 
@@ -133,7 +137,7 @@ body{
     display:flex;
     overflow:hidden;
     margin-left: 5px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 .header_content_right {

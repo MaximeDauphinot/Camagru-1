@@ -16,11 +16,13 @@
                     <h2>Reset password</h2>
                     <p class="advertisement">We can help you reset your password using your Camagru email address linked to your account.</p>
                 </div>
-                <form>
+                <form class="form_design">
                     <label for="formulary_email"></label>
                     <input type="text" id="formulary_email" placeholder="Email">
                 </form>
-                    <button class="button">Reset password</button>
+                    <div class="position_button">
+                        <button class="button">Reset password</button>
+                    </div>
             </div>
             <div id="formulary_bot">
                 <div id="formulary_sign_in">
