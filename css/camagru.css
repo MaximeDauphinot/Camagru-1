@@ -50,7 +50,6 @@ body{
 
 #footer_bar{
 	position: fixed;
-  /*  background-color: rgba(255, 255, 255, 0);*/
     height: 50px;
     width: 101%;
     margin-top: -10px;
@@ -355,7 +354,7 @@ body{
 
 .roundedimage{
     overflow: hidden;
-    -webkit-border-radius: 50px;
+    border-radius: 50px;
     -moz-border-radius: 50px;
     width: 30px;
     height: 30px;
@@ -460,7 +459,7 @@ body{
 
 .roundedimage_sd{
     overflow: hidden;
-    -webkit-border-radius: 50px;
+    border-radius: 50px;
     -moz-border-radius: 50px;
     width: 50px;
     height: 50px;

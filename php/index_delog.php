@@ -32,13 +32,12 @@
 						</div>
 						<div class="header_name">
 							<div class="header_name_sd">
-								<a class="account_name_header" title="#">PtiChaton75</a>
+								<a class="account_name_header" title="#">ComplexCon</a>
 							</div>
 						</div>
 					</div>
 					<div class="post_content">
-						<img src="
-						/ressources/BMX.jpg" class="display_picture">
+						<img src="../ressources/BMX.jpg" class="display_picture">
 					</div>
 					<div class="post_buttons_comment">
 						<section class="buttons">
@@ -59,7 +58,7 @@
 								<li class="the_comment">
 									<div class="name_aera">
 											<a class="name" href="#" title="#">backslashhaine</a>
-											<span class="quote">tro bo pti chat</span>
+											<span class="quote">Dior pfw2018 #airvirgil</span>
 									</div>
 								</li>
 							</ul>
@@ -82,7 +81,7 @@
 						</div>
 						<div class="alignment_name_other_user">
 							<div class="name_other_user">
-								<a class="account_name_header" title="#">PtiChaton75</a>
+								<a class="account_name_header" title="#">VirgilAbloh</a>
 							</div>
 						</div>
 					</div>
@@ -103,7 +102,7 @@
 									</div>
 									<div class="alignment_name_other_user">
 										<div class="name_other_user">
-											<a class="account_name_header" title="#">MiaousLeChat</a>
+											<a class="account_name_header" title="#">SupremeNewYork</a>
 										</div>
 									</div>
 								</div>

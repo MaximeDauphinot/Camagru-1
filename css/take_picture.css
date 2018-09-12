@@ -150,9 +150,9 @@ body{
 .container_content_left{
     position:relative;
     float: left;
-    max-width: 614px;
+    max-width: 620px;
     width: 100%;
-    height: 1150vw;
+    height: 61.5vw;
     flex-direction: column;
     display: flex;
 }
@@ -178,7 +178,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 103px;
     margin-left: -1px;
     margin-right: -1px;
 }
