@@ -28,10 +28,10 @@
 				<div class="insta_post">  
 					<div class="post_content">
 						<video id="video"></video>
-			<canvas id="canvas"></canvas>
-			<button id="startbutton" disabled="true" type="button">Prendre une photo</button>
-			<script src="../js/take_photo.js"></script>
-			<img id="test" src="" style="z-index: 9999;float:left;position:relative;margin-top:-120px;margin-left:40;max-width:100px;">
+						<canvas id="canvas"></canvas>
+						<button id="startbutton" disabled="true" type="button">Prendre une photo</button>
+						<script src="../js/take_photo.js"></script>
+						<img id="test" src="" style="z-index: 9999;float:left;position:relative;margin-top:-120px;margin-left:40;max-width:100px;">
 					</div>
 				</div>				
 			</div>
