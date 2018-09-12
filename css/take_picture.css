@@ -113,7 +113,7 @@ body{
     float: left;
 }
 
-.logo_sign_in{
+.logo_account{
     position: relative;
     width: 30px;
     height: 30px;
@@ -122,15 +122,6 @@ body{
     min-height: 30px;
     margin-right: 10px;
     margin-left: 20px;
-}
-
-.logo_sign_up{
-    position: relative;
-    width: 30px;
-    height: 30px;
-    max-width: 30px;
-    min-width: 30px;
-    min-height: 30px;
 }
 
 .header_content_left {
