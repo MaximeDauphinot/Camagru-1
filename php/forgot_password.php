@@ -26,13 +26,16 @@
             </div>
             <div id="formulary_bot">
                 <div id="formulary_sign_in">
-                    <a href="sign_in.php">Have an account? Sign in here</a>
+                    Have an account?
+                        <a href="sign_in.php">Sign in here</a>
                 </div>
                 <div id="formulary_sign_up">
-                    <a href="sign_up.php">Don't have an account? Sign up here</a>
+                    Don't have an account?
+                        <a href="sign_up.php">Sign up here</a>
                 </div>
                 <div id="formulary_index_delog"> <!-- a changer en index.php quand la bdd sera faites -->
-                    <a href="index_delog.php">Go see our galery just here</a>
+                    Go see our galery
+                        <a href="index_delog.php">just here</a>
                 </div>
 			</div>
         </div>
