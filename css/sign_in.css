@@ -1,9 +1,20 @@
 html { 
     overflow-y: hidden; 
+    height: 100%;
 } 
 
 body{
+    height: 100%;
     background-color: rgba(250, 250,250, 1);
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    position:relative;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    margin:0;
+    width:100vw;
+    overflow:hidden;
 }
 
 p {
@@ -20,23 +31,50 @@ a:visited {
     color: #003569;
 }
 
+strong{
+    margin-right: 30px;
+    float: right;
+    color: grey;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: relative;
+    background-color: rgba(250, 250, 250, 1);
+    justify-content: center;
+    align-items: center;
+}
+
 #container_sign_in {
-    background-color: rgba(250, 250,250, 1);
-    width: 82vw;
-    height: 60vw;
-    margin-top: 10vw;
-    margin-left: 8vw;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 0;
+    max-width: 935px;
+    padding-bottom: 44px;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: row;
+    display: flex;
 }
 
 #mockup_iphone {
-    height: 47vw;
-    width: 45.5vw;
-    float: left;
+    align-self: center;
+    background-position: 0 0;
+    height: 618px;
+    max-width: 454px;
+    margin-left: -35px;
+    margin-right: -15px;
 }
 
 #iphone_pic{
-    width: 47.5vw;
-    height: 45vw;
+    flex-basis: 454px;
+    height: 580px;
+    margin-left: -35px;
+    margin-right: -15px;
+    align-self: center;
 }
 
 #formulary_sd{
@@ -46,9 +84,9 @@ a:visited {
 }
 
 #formulary_td{
+    max-width: 350px;
     background-color: rgba(255, 255, 255, 1);
-    width: 28vw;
-    height: 28.8vw;
+    margin: 0 0 10px;
     border-top-style: solid;
     border-top-width: thin;
     border-left-style: solid;
@@ -61,60 +99,38 @@ a:visited {
 }
 
 #formulary {
-    background-color: rgba(255, 255,255, 1);
-    margin-left: 37.5vw;
-    width: 28vw;
-    height: 42vw;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;;
+    height: auto;
 }
 
 #formulary_title {
-    width: 27.9vw;
-    height: 5vw;
+    margin: 22px auto 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 #formulary_form {
-    width: 27.9vw;
-    height: 23vw;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: rgba(230, 230, 230, 1); 
 }
 
 #formulary_login {
-    margin-top: 3vw;
-    width: 18vw;
-    height: 3vw;
-    margin-left: -3vw;
-}
-
-#formulary_password {
-    margin-top: 2vw;
-    width: 18vw;
-    height: 3vw;
-    margin-left: -3vw;
-}
-
-#formulary_decoration {
-    color: #999;
-    margin-left: 13vw;   
-}
-
-#formulary_forget_password {
-    font-size: 0.8vw;
-    margin-left: 2.7vw;
-    line-height: 3.5vw;
-    text-align: center;
-    color: #003569;
-}
-
-#formulary_fd {
-    background-color: rgba(250, 250,250, 1);
-    width: 30vw;
-    height: 2.2vw;
-    margin-top: 0.9vw;
-    margin-left: -1vw;
-}
-
-#formulary_sign_up {
-    width: 27.9vw;
-    height: 7.4vw;
+    margin: 0 40px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-direction: row;
+    max-height: 36px;
+    height: 36px;
+    background-color: rgb(250, 250, 250);
     border-top-style: solid;
     border-top-width: thin;
     border-left-style: solid;
@@ -126,34 +142,158 @@ a:visited {
     border-color: rgba(230, 230, 230, 1);
 }
 
-#formulary_sign_up_link {
-    margin-top: 2vw;
-    font-size: 1vw;
+#formulary_password {
+    margin: 0 40px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-direction: row;
+    max-height: 36px;
+    height: 36px;
+    background-color: rgb(250, 250, 250);
+    border-top-style: solid;
+    border-top-width: thin;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: rgba(230, 230, 230, 1);    
+}
+
+#formulary_decoration {
+    color: #999;
+    margin: 10px 40px 18px;
+    display: flex;
+    justify-content: center;  
+}
+
+.formulary_forget_password{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+
+#formulary_forget_password {
     text-align: center;
-    margin-right: 8vw;
+    color: #003569;
+}
+
+#formulary_fd {
+    background-color: rgba(250, 250,250, 1);
+    width: 100%;
+    height: 50px;
+    margin-left: -1px;
+    z-index: 1;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-color: rgba(250, 250, 250, 1);
+}
+
+#formulary_sign_up {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+    border-color: rgba(230, 230, 230, 1);
+}
+
+#formulary_sign_up_link {
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
 }
 
 .logo {
-    width: 24vw;
-    height: 6vw;
-    margin-left: -7vw;
+    width: 175px;
+    height: 51px;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+    white-space: nowrap;
 }
 
 .button {
     background-color: lightskyblue;
     border: none;
     color: white;
-    padding: 0.9vw 9vw;
     text-align: center;
-    font-size: 0.6vw;
-    margin: 2vw -4vw;
     opacity: 0.6;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    width: 100%;
+    height: 28px;
+
 }
+
+/*<style>…</style>
+._1OSdk {
+    display: block;
+    position: relative;
+}*/
 
 .button:hover {
     opacity: 2;
+}
+
+#footer{
+    position: fixed;
+    z-index: 1;
+    height: 90px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_bar{
+  /*  background-color: rgba(255, 255, 255, 0);*/
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_design{
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    position: relative;
+}
+
+.position_button{
+    margin: 8px 40px;
+    display: block;
+    position: relative;
+    max-width: 268px;
+    max-height: 28px;
+}
+
+@media screen and (max-width: 875px){
+    #mockup_iphone{
+        display: none;
+    }
+    #formulary{
+        margin: auto;
+    }
 }

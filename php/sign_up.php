@@ -17,7 +17,7 @@
 						<h2 class="annoucement">Sign up to see photos from your friends.</h2>
 					</div>
 					<div id="formulary_form">
-						<form>
+						<form class="form_design">
 								<label for="formulary_email"></label>
 								<input type="text" id="formulary_email" placeholder="Email">
 								<label for="formulary_fullname"></label>
