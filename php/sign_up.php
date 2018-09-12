@@ -23,7 +23,7 @@
 								<label for="formulary_fullname"></label>
 								<input type="text" id="formulary_fullname" placeholder="Fullname">
 								<label for="formulary_username"></label>
-								<input type="password" id="formulary_username" placeholder="Username">
+								<input type="text" id="formulary_username" placeholder="Username">
 								<label for="formulary_password"></label>
 								<input type="password" id="formulary_password" placeholder="Password">
 							</form>

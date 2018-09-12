@@ -16,12 +16,15 @@
 			</div>
 			<div class="header_content_right">
 				<a href="setting.php">
-					<div class="logo_account"><img src="../ressources/logo_setting.png"width="30px"height="30px"></div>
+					<div class="logo_setting"><img src="../ressources/logo_setting.png"width="30px"height="30px"></div>
 				</a>
 			</div>
 		</div>
 	</div>
 	<div id="container">
+		<div class="header_profile">
+			
+		</div>
 	</div>
 	<div id="footer">
 		<div id="footer_bar">
