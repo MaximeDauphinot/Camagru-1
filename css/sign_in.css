@@ -27,10 +27,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: #003569;
-}
-
 strong{
     margin-right: 30px;
     float: right;
