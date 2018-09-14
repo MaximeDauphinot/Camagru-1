@@ -1,22 +1,21 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="../css/index_delog.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index_log.css"/>
 	<title>Camagru</title>
 </head>
 <body>
 	<div class="header">
 		<div class="position_navbar">
 			<div class="header_content_left">
-				<div class="logo_appareil"><img src="../ressources/logo_appareil.png" width="30px"height="30px"></div>
+				<a href="take_picture.php">
+					<div class="logo_appareil"><img src="../ressources/logo_appareil.png" width="30px"height="30px"></div>
+				</a>
 				<div class="logo_camagru"><img src="../ressources/logo_name.png" width="105px"height="35px"style="margin-left:7px"></div>
 			</div>
 			<div class="header_content_right">
-				<a href="sign_up.php">
-					<div class="logo_sign_up"><img src="../ressources/logo_signup.png" width="30px"height="30px"></div>
-				</a>
-				<a href="sign_in.php">
-					<div class="logo_sign_in"><img src="../ressources/logo_signin.png" width="30px"height="30px"></div>
-				</a>
+				<a href="profile.php">
+                    <div class="logo_profile"><img src="../ressources/logo_account.png" width="30px"height="30px"></div>
+                </a>
 			</div>
 		</div>
 	</div>
@@ -61,7 +60,7 @@
 								</li>
 							</ul>
 						</div>
-						<section class="writing_area"> <!-- bloquer pour les user pas co sur leur accounts -->
+						<section class="writing_area">
 							<form class="enter_comment">
 								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
 							</form>
@@ -79,7 +78,7 @@
 						</div>
 						<div class="alignment_name_other_user">
 							<div class="name_other_user">
-								<a class="account_name_header" title="#">VirgilAbloh</a> <!-- pas de pp sur index_delog vu que pas co sur un account -->
+								<a class="account_name_header" title="#">VirgilAbloh</a>
 							</div>
 						</div>
 					</div>
