@@ -22,9 +22,26 @@
 		</div>
 	</div>
 	<div id="container">
-		<div class="header_profile">
+		<div id="header_profile">
 			<div class="header_profile_picture">
-				
+				<!-- affichage de la pp dans un roundedimage -->
+			</div>
+			<div class="header_profile_name">
+				<!-- affichage de l'username -->
+			</div>
+			<div class="header_profile_info">
+				<!-- affichage du nbr de post fait par l'user -->
+			</div>
+		</div>
+		<div id="container_profile_picture">
+			<div class="profile_picture">
+				<!-- recup les images dans la bdd par ordre chronologique -->
+			</div>
+			<div class="profile_picture">
+				<!-- recup les images dans la bdd par ordre chronologique -->
+			</div>
+			<div class="profile_picture">
+				<!-- recup les images dans la bdd par ordre chronologique -->
 			</div>
 		</div>
 	</div>

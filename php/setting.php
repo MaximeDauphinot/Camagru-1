@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="../css/profile.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/setting.css"/>
 		<title>Camagru</title>
 	</head>
 <body>
@@ -22,6 +22,12 @@
 		</div>
 	</div>
 	<div id="container">
+		<div id="container_left_list">
+			<!-- faire la liste deroulante sur la gauche ou lon choisi le type de reglage -->
+		</div>
+		<div id="container_right_list">
+			<!-- ici on fait les reglages ta capter -->
+		</div>
 	</div>
 	<div id="footer">
 		<div id="footer_bar">
