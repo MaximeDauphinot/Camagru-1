@@ -1,24 +1,26 @@
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="../css/take_picture.css"/>
-	<title>Camagru</title>
-</head>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/take_picture.css"/>
+		<title>Camagru</title>
+	</head>
 <body>
 	<div class="header">
 		<div class="position_navbar">
 			<div class="header_content_left">
 				<a href="take_picture.php">
-					<div class="logo_appareil"><img src="../ressources/logo_appareil.png" width="30px" height="30px"></div>
+					<div class="logo_appareil"><img src="../ressources/logo_appareil.png"width="30px"height="30px"></div>
 				</a>
-				<div class="logo_camagru"><img src="../ressources/logo_name.png" width="105px" height="35px" style="margin-left: 8px"></div>
+				<a href="index_delog.php"> <!-- a changer en index.php quand bdd faite -->
+					<div class="logo_camagru"><img src="../ressources/logo_name.png"width="105px"height="35px"style="margin-left:7px"></div>
+				</a>
 			</div>
 			<div class="header_content_right">
-				<a href="sign_up.php">
-					<div class="logo_sign_up"><img src="../ressources/logo_signup.png" width="30px" height="30px"></div>
+				<a href="profile.php">
+					<div class="logo_account"><img src="../ressources/logo_account.png"width="30px"height="30px"></div>
 				</a>
-				<a href="sign_in.php">
-					<div class="logo_sign_in"><img src="../ressources/logo_signin.png" width="30px" height="30px"></div>
-				</a>
+				<a href="">
+                    <div class="logo_logout"><img src="../ressources/logo_logout.png" width="30px"height="30px"></div>
+                </a>
 			</div>
 		</div>
 	</div>
@@ -26,52 +28,12 @@
 		<div id="layout_picture">
 			<div class="container_content_left">
 				<div class="insta_post">  
-					<div class="header_post">
-						<div class="roundedimage">
-	    					<img src="http://placekitten.com/g/20/20" alt="1" class="pp"/>
-						</div>
-						<div class="header_name">
-							<div class="header_name_sd">
-								<a class="account_name_header" title="#">PtiChaton75</a>
-							</div>
-						</div>
-					</div>
 					<div class="post_content">
 						<video id="video"></video>
-			<canvas id="canvas"></canvas>
-			<button id="startbutton" disabled="true" type="button">Prendre une photo</button>
-			<script src="../js/take_photo.js"></script>
-			<img id="test" src="" style="z-index: 9999;float:left;position:relative;margin-top:-120px;margin-left:40;max-width:100px;">
-					</div>
-					<div class="post_buttons_comment">
-						<section class="buttons">
-							<div class="like_button">
-								<img src="../ressources/logo_like.png" class="post_button">
-							</div>
-							<div class="comment_button">
-								<img src="../ressources/logo_commentary.png" class="post_button">
-							</div>
-						</section>
-						<section class="like_area">
-							<div class="likes">
-								<span>143</span> likes
-							</div>
-						</section>
-						<div class="comments">
-							<ul class="comment_area">
-								<li class="the_comment">
-									<div class="name_aera">
-											<a class="name" href="#" title="#">backslashhaine</a>
-											<span class="quote">tro bo pti chat</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<section class="writing_area">
-							<form class="enter_comment">
-								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
-							</form>
-					</section>
+						<canvas id="canvas"></canvas>
+						<button id="startbutton" disabled="true" type="button">Take a photo</button>
+						<script src="../js/take_photo.js"></script>
+						<img id="test" src=""/>
 					</div>
 				</div>				
 			</div>
@@ -80,36 +42,24 @@
 					<div class="header_alignment">
 						<div class="header_pp_other_user">
 							<a class="roundedimage_sd">
-								<img src="http://placekitten.com/g/20/20" alt="1" class="pp_sd"/>
+								<img src="http://placekitten.com/g/30/30" alt="1" class="pp_sd"/>
 							</a>
 						</div>
 						<div class="alignment_name_other_user">
 							<div class="name_other_user">
-								<a class="account_name_header" title="#">PtiChaton75</a>
+								<a class="account_name_header" title="#">Filters</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="user">
-					<span class="user_name">User</span>
-					<a href="#" class="watch_all">Watch all</a>
+					<span class="user_name">Choose</span>
 				</div>
 				<div class="position_user">
 					<div class="position_user_sd">
 						<div class="alignment_user">
 							<div class="here_it_is">
-								<div class="header_alignment">
-									<div class="header_pp_other_user">
-										<a class="roundedimage_sd">
-											<img src="http://placekitten.com/g/20/20" alt="1" class="pp_sd"/>
-										</a>
-									</div>
-									<div class="alignment_name_other_user">
-										<div class="name_other_user">
-											<a class="account_name_header" title="#">MiaousLeChat</a>
-										</div>
-									</div>
-								</div>
+								<div class="header_alignment"></div>
 							</div>
 						</div>
 					</div>

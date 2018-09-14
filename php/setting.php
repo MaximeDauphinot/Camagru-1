@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="../css/profile.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/setting.css"/>
 		<title>Camagru</title>
 	</head>
 <body>
@@ -15,8 +15,8 @@
                 </a>
 			</div>
 			<div class="header_content_right">
-				<a href="setting.php">
-					<div class="logo_setting"><img src="../ressources/logo_setting.png"width="30px"height="30px"></div>
+				<a href="profile.php">
+					<div class="logo_account"><img src="../ressources/logo_account.png"width="30px"height="30px"></div>
 				</a>
 				<a href="">
                     <div class="logo_logout"><img src="../ressources/logo_logout.png" width="30px"height="30px"></div>
@@ -25,28 +25,17 @@
 		</div>
 	</div>
 	<div id="container">
-		<div id="header_profile">
-			<div class="header_profile_picture">
-				<!-- affichage de la pp dans un rounded_image -->
+		<ul class="container_left_setting">
+			<div class="listing_setting">
+				<a href="setting_profile.php">edit profile</a> <!--page base -->
+				<a href="setting_password.php">edit password</a> <!-- meme page que setting mais dans container_right on pourra modif le password -->
+				<a href="setting_mail.php">edit mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
+				<a href="setting_notif">edit notif</a> <!-- meme page que setting mais dans container_right on pourra modif les notifs -->
 			</div>
-			<div class="header_profile_name">
-				<!-- affichage de l'username en gros italique -->
-			</div>
-			<div class="header_profile_info">
-				<!-- affichage du nbr de post fait par l'user via la bdd -->
-			</div>
-		</div>
-		<div id="container_profile_picture">
-			<div class="profile_picture">
-				<!-- recup les images dans la bdd par ordre chronologique -->
-			</div>
-			<div class="profile_picture">
-				<!-- recup les images dans la bdd par ordre chronologique -->
-			</div>
-			<div class="profile_picture">
-				<!-- recup les images dans la bdd par ordre chronologique -->
-			</div>
-		</div>
+		</ul>
+		<div id="container_right_setting">
+			<!-- tt ce quil faut pour administer le bail -->
+		</div>	
 	</div>
 	<div id="footer">
 		<div id="footer_bar">

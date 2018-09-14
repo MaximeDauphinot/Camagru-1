@@ -27,10 +27,6 @@ a {
     text-decoration: none;
 }
 
-a:visited {
-    color: #003569;
-}
-
 strong{
     margin-right: 30px;
     float: right;
@@ -241,12 +237,6 @@ strong{
     height: 28px;
 
 }
-
-/*<style>…</style>
-._1OSdk {
-    display: block;
-    position: relative;
-}*/
 
 .button:hover {
     opacity: 2;

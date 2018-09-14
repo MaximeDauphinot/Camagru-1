@@ -23,7 +23,7 @@
 								<label for="formulary_fullname"></label>
 								<input type="text" id="formulary_fullname" placeholder="Fullname">
 								<label for="formulary_username"></label>
-								<input type="password" id="formulary_username" placeholder="Username">
+								<input type="text" id="formulary_username" placeholder="Username">
 								<label for="formulary_password"></label>
 								<input type="password" id="formulary_password" placeholder="Password">
 							</form>
@@ -33,7 +33,8 @@
 				<div id="formulary_sd"></div>
 				<div id="formulary_bot_container">
 					<p id="formulary_sign_up_link">
-                        <a href="sign_in.php">Have an account? Sign in here</a>
+						Have an account? 
+                        <a href="sign_in.php">Sign in here</a>
                     </p>
 				</div>
             </div>
