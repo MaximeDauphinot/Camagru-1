@@ -18,6 +18,9 @@
 				<a href="profile.php">
 					<div class="logo_account"><img src="../ressources/logo_account.png"width="30px"height="30px"></div>
 				</a>
+				<a href="">
+                    <div class="logo_logout"><img src="../ressources/logo_logout.png" width="30px"height="30px"></div>
+                </a>
 			</div>
 		</div>
 	</div>

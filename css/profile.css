@@ -112,6 +112,16 @@ body{
     margin-left: 20px;
 }
 
+.logo_logout{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    margin-left: 20px;
+}
+
 .header_content_left {
     display:flex;
     overflow:hidden;
