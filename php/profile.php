@@ -24,13 +24,13 @@
 	<div id="container">
 		<div id="header_profile">
 			<div class="header_profile_picture">
-				<!-- affichage de la pp dans un roundedimage -->
+				<!-- affichage de la pp dans un rounded_image -->
 			</div>
 			<div class="header_profile_name">
-				<!-- affichage de l'username -->
+				<!-- affichage de l'username en gros italique -->
 			</div>
 			<div class="header_profile_info">
-				<!-- affichage du nbr de post fait par l'user -->
+				<!-- affichage du nbr de post fait par l'user via la bdd -->
 			</div>
 		</div>
 		<div id="container_profile_picture">

@@ -22,12 +22,17 @@
 		</div>
 	</div>
 	<div id="container">
-		<div id="container_left_list">
-			<!-- faire la liste deroulante sur la gauche ou lon choisi le type de reglage -->
-		</div>
-		<div id="container_right_list">
-			<!-- ici on fait les reglages ta capter -->
-		</div>
+		<ul class="container_left_setting">
+			<div class="listing_setting">
+				<a href="setting_profile.php">edit profile</a> <!--page base -->
+				<a href="setting_password.php">edit password</a> <!-- meme page que setting mais dans container_right on pourra modif le password -->
+				<a href="setting_mail.php">edit mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
+				<a href="setting_notif">edit notif</a> <!-- meme page que setting mais dans container_right on pourra modif les notifs -->
+			</div>
+		</ul>
+		<div id="container_right_setting">
+			<!-- tt ce quil faut pour administer le bail -->
+		</div>	
 	</div>
 	<div id="footer">
 		<div id="footer_bar">
