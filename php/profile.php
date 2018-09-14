@@ -23,7 +23,9 @@
 	</div>
 	<div id="container">
 		<div class="header_profile">
-			
+			<div class="header_profile_picture">
+				
+			</div>
 		</div>
 	</div>
 	<div id="footer">
