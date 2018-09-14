@@ -16,6 +16,12 @@ body{
     overflow:hidden;
 }
 
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 200;
+}
+
 #container{
     overflow: scroll;
     display:flex;
@@ -146,12 +152,13 @@ body{
 }
 
 .layout_profile_info {
-    flex-grow: 2;
     max-width: 614px;
     width: 100%;
 }
 
 #header_profile {
+    justify-content: center;
+    display: flex;
     margin-bottom: 44px;
     flex-grow: 1;
 }
@@ -170,7 +177,7 @@ body{
 }
 
 .header_profile_name {
-    
+    margin-bottom: 20px;
 }
 
 .roundimage{

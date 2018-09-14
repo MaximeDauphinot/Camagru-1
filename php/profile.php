@@ -34,10 +34,7 @@
 				</div>
 				<div class="layout_profile_info">
 					<div class="header_profile_name">
-						<!-- affichage de l'username en gros italique -->
-					</div>
-					<div class="header_profile_info">
-						<!-- affichage du nbr de post fait par l'user via la bdd -->
+						<h1>Virgil Abloh</h1>
 					</div>
 				</div>
 			</div>
