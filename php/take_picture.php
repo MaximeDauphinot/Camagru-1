@@ -1,23 +1,22 @@
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="../css/take_picture.css"/>
-	<title>Camagru</title>
-</head>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/take_picture.css"/>
+		<title>Camagru</title>
+	</head>
 <body>
 	<div class="header">
 		<div class="position_navbar">
 			<div class="header_content_left">
 				<a href="take_picture.php">
-					<div class="logo_appareil"><img src="../ressources/logo_appareil.png" width="30px" height="30px"></div>
+					<div class="logo_appareil"><img src="../ressources/logo_appareil.png"width="30px"height="30px"></div>
 				</a>
-				<div class="logo_camagru"><img src="../ressources/logo_name.png" width="105px" height="35px" style="margin-left: 8px"></div>
+				<a href="index_delog.php"> <!-- a changer en index.php quand bdd faite -->
+					<div class="logo_camagru"><img src="../ressources/logo_name.png"width="105px"height="35px"style="margin-left:7px"></div>
+				</a>
 			</div>
 			<div class="header_content_right">
-				<a href="sign_up.php">
-					<div class="logo_sign_up"><img src="../ressources/logo_signup.png" width="30px" height="30px"></div>
-				</a>
-				<a href="sign_in.php">
-					<div class="logo_sign_in"><img src="../ressources/logo_signin.png" width="30px" height="30px"></div>
+				<a href="profile.php">
+					<div class="logo_account"><img src="../ressources/logo_account.png"width="30px"height="30px"></div>
 				</a>
 			</div>
 		</div>
@@ -29,9 +28,9 @@
 					<div class="post_content">
 						<video id="video"></video>
 						<canvas id="canvas"></canvas>
-						<button id="startbutton" disabled="true" type="button">Prendre une photo</button>
+						<button id="startbutton" disabled="true" type="button">Take a photo</button>
 						<script src="../js/take_photo.js"></script>
-						<img id="test" src="" style="z-index: 9999;float:left;position:relative;margin-top:-120px;margin-left:40;max-width:100px;">
+						<img id="test" src=""/>
 					</div>
 				</div>				
 			</div>
@@ -45,14 +44,13 @@
 						</div>
 						<div class="alignment_name_other_user">
 							<div class="name_other_user">
-								<a class="account_name_header" title="#">Filtre</a>
+								<a class="account_name_header" title="#">Filters</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="user">
 					<span class="user_name">Choose</span>
-
 				</div>
 				<div class="position_user">
 					<div class="position_user_sd">

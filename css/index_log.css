@@ -1,7 +1,7 @@
 strong{
-    margin-right: 30px;
-    float: right;
-    color: grey;
+	margin-right: 30px;
+	float: right;
+	color: grey;
 }
 
 body{
@@ -43,14 +43,14 @@ body{
 }
 
 #footer{
-    height: 90px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
+	height: 90px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 
 #footer_bar{
-    position: fixed;
+	position: fixed;
   /*  background-color: rgba(255, 255, 255, 0);*/
     height: 50px;
     width: 101%;
@@ -113,7 +113,7 @@ body{
     float: left;
 }
 
-.logo_account{
+.logo_profile{
     position: relative;
     width: 30px;
     height: 30px;
@@ -141,9 +141,9 @@ body{
 .container_content_left{
     position:relative;
     float: left;
-    max-width: 620px;
+    max-width: 614px;
     width: 100%;
-    height: 61.5vw;
+    height: 1150vw;
     flex-direction: column;
     display: flex;
 }
@@ -169,7 +169,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 103px;
+    margin-bottom: 60px;
     margin-left: -1px;
     margin-right: -1px;
 }

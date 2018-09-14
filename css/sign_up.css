@@ -81,7 +81,7 @@ a {
 #formulary_annoucement {
     display: flex;
     justify-content: center;
-    font-size: 1vw;
+    font-size: 10px;
 }
 
 #formulary_form {
