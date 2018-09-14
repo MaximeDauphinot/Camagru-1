@@ -72,7 +72,6 @@ body{
     align-items: center;
     background-color: white;
     height: 75px;
-    margin-right: 14px;
 }
 
 .logo_appareil{
@@ -134,4 +133,47 @@ body{
     justify-content: flex-end;
     align-items: center;
     margin-right: 2px;
+}
+
+.layout_profile{
+    position:relative;
+    display:flex;
+    width: 935px;
+    max-width: 935px;
+    background-color: rgba(250, 250, 250, 1);
+    height: 1275px;
+    padding-top: 60px;
+}
+
+.layout_profile_info {
+    flex-grow: 2;
+}
+
+#header_profile {
+    margin-bottom: 44px;
+    flex-grow: 1;
+}
+
+.header_profile_picture {
+    margin-right: 31px;
+    justify-content: center;
+    width: 100%;
+    max-width: 290px;
+}
+
+.header_profile_picture_sd {
+     width: 150px;
+     height: 150px;
+     margin: auto;
+}
+
+.roundimage{
+    overflow: hidden;
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
 }

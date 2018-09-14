@@ -25,26 +25,32 @@
 		</div>
 	</div>
 	<div id="container">
-		<div id="header_profile">
-			<div class="header_profile_picture">
-				<!-- affichage de la pp dans un rounded_image -->
+		<div class="layout_profile">
+			<div id="header_profile">
+				<div class="header_profile_picture">
+					<div class="header_profile_picture_sd">
+						<img class="roundimage" src="../ressources/pp.jpg"/>
+					</div>
+				</div>
+				<div class="layout_profile_info">
+					<div class="header_profile_name">
+						<!-- affichage de l'username en gros italique -->
+					</div>
+					<div class="header_profile_info">
+						<!-- affichage du nbr de post fait par l'user via la bdd -->
+					</div>
+				</div>
 			</div>
-			<div class="header_profile_name">
-				<!-- affichage de l'username en gros italique -->
-			</div>
-			<div class="header_profile_info">
-				<!-- affichage du nbr de post fait par l'user via la bdd -->
-			</div>
-		</div>
-		<div id="container_profile_picture">
-			<div class="profile_picture">
-				<!-- recup les images dans la bdd par ordre chronologique -->
-			</div>
-			<div class="profile_picture">
-				<!-- recup les images dans la bdd par ordre chronologique -->
-			</div>
-			<div class="profile_picture">
-				<!-- recup les images dans la bdd par ordre chronologique -->
+			<div id="container_profile_picture">
+				<div class="profile_picture">
+					<!-- recup les images dans la bdd par ordre chronologique -->
+				</div>
+				<div class="profile_picture">
+					<!-- recup les images dans la bdd par ordre chronologique -->
+				</div>
+				<div class="profile_picture">
+					<!-- recup les images dans la bdd par ordre chronologique -->
+				</div>
 			</div>
 		</div>
 	</div>
