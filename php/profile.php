@@ -36,17 +36,26 @@
 					<div class="header_profile_name">
 						<h1>Virgil Abloh</h1>
 					</div>
+					<ul class="header_profile_info">
+						<li class="info_post">
+							<span>30</span>posts
+						</li>			
+					</ul>
 				</div>
 			</div>
 			<div id="container_profile_picture">
-				<div class="profile_picture">
-					<!-- recup les images dans la bdd par ordre chronologique -->
-				</div>
-				<div class="profile_picture">
-					<!-- recup les images dans la bdd par ordre chronologique -->
-				</div>
-				<div class="profile_picture">
-					<!-- recup les images dans la bdd par ordre chronologique -->
+				<div class="profile_picture_base">
+					<div class="profile_row_picture">
+						<div class="profile_picture">
+							<!-- recup les images dans la bdd par ordre chronologique -->
+						</div>
+						<div class="profile_picture">
+							<!-- recup les images dans la bdd par ordre chronologique -->
+						</div>
+						<div class="profile_picture">
+							<!-- recup les images dans la bdd par ordre chronologique -->
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
