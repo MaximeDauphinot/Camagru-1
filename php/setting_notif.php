@@ -35,10 +35,10 @@
 	<div id="container">
 		<ul class="container_left_setting">
 			<div class="listing_setting">
-				<a>edit profile</a> <!--page base -->
-				<a href="setting_password.php">edit password</a> <!-- meme page que setting mais dans container_right on pourra modif le password -->
-				<a href="setting_mail.php">edit mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
-				<a href="setting_notif">edit notif</a> <!-- meme page que setting mais dans container_right on pourra modif les notifs -->
+				<a href="setting.php">edit profile</a> 
+				<a href="setting_password.php">edit password</a> 
+				<a href="setting_mail.php">edit mail</a> 
+				<a>edit notif</a> 
 			</div>
 		</ul>
 		<div id="container_right_setting">
