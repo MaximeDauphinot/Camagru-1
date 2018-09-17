@@ -36,19 +36,19 @@
 		<div class="main_setting">
 			<ul class="container_left_setting">
 				<li>
-					<a class="li_setting">Edit Profile</a> <!--page base -->
+					<a class="li_setting" href="setting.php">Edit Profile</a> <!--page base -->
 				</li>
 				<li>
 					<a class="li_setting" href="setting_password.php">Change Password</a> <!-- meme page que setting mais dans container_right on pourra modif le password -->
 				</li>
 				<li>
-					<a class="li_setting" href="setting_mail.php">Change E-mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
+					<a class="li_setting">Change E-mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
 				</li>
 			</ul>
 		<div id="container_right_setting">
 			<!-- tt ce quil faut pour administer le bail -->
 		</div>
-		</div>
+		</div>	
 	</div>
 	<div id="footer">
 		<div id="footer_bar">

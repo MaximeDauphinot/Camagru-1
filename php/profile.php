@@ -29,28 +29,33 @@
 			<div id="header_profile">
 				<div class="header_profile_picture">
 					<div class="header_profile_picture_sd">
-	    				<img src="../ressources/pp.jpg" class="roundimage"/>
+						<img class="roundimage" src="../ressources/pp.jpg"/>
 					</div>
 				</div>
 				<div class="layout_profile_info">
 					<div class="header_profile_name">
-						<h1>Hello pigeon</h1>
-						<!-- affichage de l'username en gros italique -->
+						<h1>Virgil Abloh</h1>
 					</div>
-					<div class="header_profile_info">
-						<!-- affichage du nbr de post fait par l'user via la bdd -->
-					</div>
+					<ul class="header_profile_info">
+						<li class="info_post">
+							<span>30</span>posts
+						</li>			
+					</ul>
 				</div>
 			</div>
 			<div id="container_profile_picture">
-				<div class="profile_picture">
-					<!-- recup les images dans la bdd par ordre chronologique -->
-				</div>
-				<div class="profile_picture">
-					<!-- recup les images dans la bdd par ordre chronologique -->
-				</div>
-				<div class="profile_picture">
-					<!-- recup les images dans la bdd par ordre chronologique -->
+				<div class="profile_picture_base">
+					<div class="profile_row_picture">
+						<div class="profile_picture">
+							<!-- recup les images dans la bdd par ordre chronologique -->
+						</div>
+						<div class="profile_picture">
+							<!-- recup les images dans la bdd par ordre chronologique -->
+						</div>
+						<div class="profile_picture">
+							<!-- recup les images dans la bdd par ordre chronologique -->
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
