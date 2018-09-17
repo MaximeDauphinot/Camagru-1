@@ -153,8 +153,8 @@ h1 {
     width: 935px;
     max-width: 935px;
     background-color: rgba(250, 250, 250, 1);
-    height: 1275px;
     padding-top: 60px;
+    flex-direction: column;
 }
 
 
@@ -187,7 +187,6 @@ h1 {
     margin: auto;
 }
 
-=======
 #header_profile {
     justify-content: center;
     display: flex;
@@ -245,4 +244,22 @@ h1 {
     flex: 0 0 auto;
     overflow: hidden;
     position: relative;
+}
+
+.profile_picture_base{
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.profile_row_picture{
+    display: flex;
+    margin-bottom: 28px;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+}
+
+.profile_picture{
+    margin-right: 28px;
 }

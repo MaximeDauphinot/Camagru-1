@@ -47,13 +47,57 @@
 				<div class="profile_picture_base">
 					<div class="profile_row_picture">
 						<div class="profile_picture">
-							<!-- recup les images dans la bdd par ordre chronologique -->
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
 						</div>
 						<div class="profile_picture">
-							<!-- recup les images dans la bdd par ordre chronologique -->
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div>
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+					</div>
+					<div class="profile_row_picture">
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
 						</div>
 						<div class="profile_picture">
-							<!-- recup les images dans la bdd par ordre chronologique -->
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div>
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+					</div>
+					<div class="profile_row_picture">
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div>
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+					</div>
+					<div class="profile_row_picture">
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div>
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+					</div>
+					<div class="profile_row_picture">
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div class="profile_picture">
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
+						</div>
+						<div>
+							<img src="../ressources/pp.jpg" width="293px" height="293px"/>
 						</div>
 					</div>
 				</div>

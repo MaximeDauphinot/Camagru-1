@@ -67,7 +67,188 @@
 							</form>
 					</section>
 					</div>
-				</div>				
+				</div>	
+				<div class="insta_post">  
+					<div class="header_post">
+						<div class="roundedimage">
+	    					<img src="http://placekitten.com/g/20/20" alt="1" class="pp"/>
+						</div>
+						<div class="header_name">
+							<div class="header_name_sd">
+								<a class="account_name_header" title="#">ComplexCon</a>
+							</div>
+						</div>
+					</div>
+					<div class="post_content">
+						<img src="../ressources/BMX.jpg" class="display_picture">
+					</div>
+					<div class="post_buttons_comment">
+						<section class="buttons">
+							<div class="like_button">
+								<img src="../ressources/logo_like.png" class="post_button">
+							</div>
+							<div class="comment_button">
+								<img src="../ressources/logo_commentary.png" class="post_button">
+							</div>
+						</section>
+						<section class="like_area">
+							<div class="likes">
+								<span>143</span> likes
+							</div>
+						</section>
+						<div class="comments">
+							<ul class="comment_area">
+								<li class="the_comment">
+									<div class="name_aera">
+											<a class="name" href="#" title="#">backslashhaine</a>
+											<span class="quote">Dior pfw2018 #airvirgil</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<section class="writing_area"> <!-- bloquer pour les user pas co sur leur accounts -->
+							<form class="enter_comment">
+								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
+							</form>
+					</section>
+					</div>
+				</div>
+				<div class="insta_post">  
+					<div class="header_post">
+						<div class="roundedimage">
+	    					<img src="http://placekitten.com/g/20/20" alt="1" class="pp"/>
+						</div>
+						<div class="header_name">
+							<div class="header_name_sd">
+								<a class="account_name_header" title="#">ComplexCon</a>
+							</div>
+						</div>
+					</div>
+					<div class="post_content">
+						<img src="../ressources/BMX.jpg" class="display_picture">
+					</div>
+					<div class="post_buttons_comment">
+						<section class="buttons">
+							<div class="like_button">
+								<img src="../ressources/logo_like.png" class="post_button">
+							</div>
+							<div class="comment_button">
+								<img src="../ressources/logo_commentary.png" class="post_button">
+							</div>
+						</section>
+						<section class="like_area">
+							<div class="likes">
+								<span>143</span> likes
+							</div>
+						</section>
+						<div class="comments">
+							<ul class="comment_area">
+								<li class="the_comment">
+									<div class="name_aera">
+											<a class="name" href="#" title="#">backslashhaine</a>
+											<span class="quote">Dior pfw2018 #airvirgil</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<section class="writing_area"> <!-- bloquer pour les user pas co sur leur accounts -->
+							<form class="enter_comment">
+								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
+							</form>
+					</section>
+					</div>
+				</div>
+				<div class="insta_post">  
+					<div class="header_post">
+						<div class="roundedimage">
+	    					<img src="http://placekitten.com/g/20/20" alt="1" class="pp"/>
+						</div>
+						<div class="header_name">
+							<div class="header_name_sd">
+								<a class="account_name_header" title="#">ComplexCon</a>
+							</div>
+						</div>
+					</div>
+					<div class="post_content">
+						<img src="../ressources/BMX.jpg" class="display_picture">
+					</div>
+					<div class="post_buttons_comment">
+						<section class="buttons">
+							<div class="like_button">
+								<img src="../ressources/logo_like.png" class="post_button">
+							</div>
+							<div class="comment_button">
+								<img src="../ressources/logo_commentary.png" class="post_button">
+							</div>
+						</section>
+						<section class="like_area">
+							<div class="likes">
+								<span>143</span> likes
+							</div>
+						</section>
+						<div class="comments">
+							<ul class="comment_area">
+								<li class="the_comment">
+									<div class="name_aera">
+											<a class="name" href="#" title="#">backslashhaine</a>
+											<span class="quote">Dior pfw2018 #airvirgil</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<section class="writing_area"> <!-- bloquer pour les user pas co sur leur accounts -->
+							<form class="enter_comment">
+								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
+							</form>
+					</section>
+					</div>
+				</div>
+				<div class="insta_post">  
+					<div class="header_post">
+						<div class="roundedimage">
+	    					<img src="http://placekitten.com/g/20/20" alt="1" class="pp"/>
+						</div>
+						<div class="header_name">
+							<div class="header_name_sd">
+								<a class="account_name_header" title="#">ComplexCon</a>
+							</div>
+						</div>
+					</div>
+					<div class="post_content">
+						<img src="../ressources/BMX.jpg" class="display_picture">
+					</div>
+					<div class="post_buttons_comment">
+						<section class="buttons">
+							<div class="like_button">
+								<img src="../ressources/logo_like.png" class="post_button">
+							</div>
+							<div class="comment_button">
+								<img src="../ressources/logo_commentary.png" class="post_button">
+							</div>
+						</section>
+						<section class="like_area">
+							<div class="likes">
+								<span>143</span> likes
+							</div>
+						</section>
+						<div class="comments">
+							<ul class="comment_area">
+								<li class="the_comment">
+									<div class="name_aera">
+											<a class="name" href="#" title="#">backslashhaine</a>
+											<span class="quote">Dior pfw2018 #airvirgil</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<section class="writing_area"> <!-- bloquer pour les user pas co sur leur accounts -->
+							<form class="enter_comment">
+								<textarea class="comment_box" aria-label="Add a comment…" placeholder="Add a comment…" autocomplete="off" autocorrect="off"></textarea>
+							</form>
+					</section>
+					</div>
+				</div>
+
 			</div>
 			<div class="container_content_right">
 				<div class="header_other_user">
