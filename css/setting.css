@@ -161,6 +161,7 @@ body{
 }
 
 .li_setting{
+    color: #262626;
     border-left: 2px solid transparent;
     display: block;
     font-size: 17px;
@@ -171,11 +172,6 @@ body{
 }
 
 .li_setting:active:hover {
-    color: #262626;
-    text-decoration: none;
-}
-
-.li_setting:visited {
-    color: #003569;
+    color: #3897f0;
     text-decoration: none;
 }

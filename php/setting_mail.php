@@ -24,7 +24,7 @@
 						<img src="../ressources/logo_account.png"width="30px"height="30px">
 					</div>
 				</a>
-				<a href="">
+				<a href=""> <!-- cree un deco.php ? -->
                     <div class="logo_logout">
 						<img src="../ressources/logo_logout.png" width="30px"height="30px">
 					</div>
