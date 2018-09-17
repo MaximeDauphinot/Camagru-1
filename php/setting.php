@@ -33,17 +33,22 @@
 		</div>
 	</div>
 	<div id="container">
-		<ul class="container_left_setting">
-			<div class="listing_setting">
-				<a>edit profile</a> <!--page base -->
-				<a href="setting_password.php">edit password</a> <!-- meme page que setting mais dans container_right on pourra modif le password -->
-				<a href="setting_mail.php">edit mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
-				<a href="setting_notif">edit notif</a> <!-- meme page que setting mais dans container_right on pourra modif les notifs -->
-			</div>
-		</ul>
+		<div class="main_setting">
+			<ul class="container_left_setting">
+				<li>
+					<a class="li_setting">Edit Profile</a> <!--page base -->
+				</li>
+				<li>
+					<a class="li_setting" href="setting_password.php">Change Password</a> <!-- meme page que setting mais dans container_right on pourra modif le password -->
+				</li>
+				<li>
+					<a class="li_setting" href="setting_mail.php">Change E-mail</a> <!-- meme page que setting mais dans container_right on pourra modif le mail -->
+				</li>
+			</ul>
 		<div id="container_right_setting">
 			<!-- tt ce quil faut pour administer le bail -->
-		</div>	
+		</div>
+		</div>
 	</div>
 	<div id="footer">
 		<div id="footer_bar">
