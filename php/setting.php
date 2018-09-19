@@ -41,13 +41,13 @@
                         <button class="button">Submit</button>
                     </div>
 				</div>
-				<div class="input_zone">
+				<div class="input_zone_sd">
 					<p>Change Password :<p><input type="password" class="formulary_name" placeholder="New Password">
 					 <div class="position_button">
                         <button class="button">Submit</button>
                     </div>
 				</div>
-				<div class="input_zone">
+				<div class="input_zone_td">
 					<p>Change Mail :<p><input type="text" class="formulary_name" placeholder="New Mail">
 					 <div class="position_button_td">
                         <button class="button">Submit</button>
